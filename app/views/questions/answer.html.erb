@@ -1,0 +1,15 @@
+<div class="content-container">
+  <div class="question">
+    <%= @question.capitalize %>
+    <p class="whosaidit">-You</p>
+   </div>
+
+  <div class="answer">
+      <%= @answer %>
+      <p class="whosaidit">-Your coach</p>
+  </div>
+
+  <div id="link">
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
